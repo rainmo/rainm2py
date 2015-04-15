@@ -1,0 +1,4 @@
+import easygui
+F = easygui.integerbox('please enter Fahrenheit:')
+C = round(5 / 9 * (F - 32), 2)
+easygui.msgbox(C, "℃")
