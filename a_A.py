@@ -1,14 +1,6 @@
-import string
-nums = string.digits
-def check(name):
-    if type(name) is not str:
-        return False
-    else:
-        for i in name:
-            if i not in nums:
-                return False
-            return True
-            
+# ***************************
+# 下面的程序是将输入的名字的首字母转化成大写zim后输出
+# ***************************
 n = 3
 lst = []
 while n > 0:
