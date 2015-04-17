@@ -1,6 +1,7 @@
+# 简单的条件循环示例
 L = []
 n = 1
 while n <= 99:
 	L.append(n)
 	n += 2
-	print (L)
+print (L)
