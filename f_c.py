@@ -1,3 +1,3 @@
-F = float(input('please enter F:'))
-C = 5 / 9 * (F - 32)
-print (C, '℃')
+def f2c(F):
+	C = 5 / 9 * (F - 32)
+	return C
