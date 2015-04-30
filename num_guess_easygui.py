@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import random
 import easygui
 
@@ -8,9 +11,10 @@ tries = 0
 easygui.msgbox("""AHOY! I\'m the Dread Pirate Robers, and I have a secret!
 	It is a number from 1 to 99. I\'ll give you 6 tries.""")
 
-while guess != secret and tries <6:
+while guess != secret and tries < 6:
 	guess = easygui.integerbox('What\'s your guess?')
-	if not guess: break
+	if not guess:
+		break
 	if guess < secret:
 		easygui.msgbox(str(guess) + 'is too low, you scurvy dog!')
 	elif guess > secret:
