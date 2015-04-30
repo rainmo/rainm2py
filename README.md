@@ -5,3 +5,4 @@
 + python语法
 + django框架
 + linux
++ PyQt4制作百度贴吧签到软件
