@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# 输入5个名字，选择进行修改替换
 print ('Enter 5 names:')
 a = input()
 b = input()
