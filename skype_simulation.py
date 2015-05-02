@@ -72,8 +72,22 @@ for item in ["寻求支持", "检查更新", "关于skype..."]:
 menubar.add_cascade(label = "帮助", menu = menu_7)
 root['menu'] = menubar
 
+# 建立右键弹出菜单
+'''
+for item in ["使用bing搜索", "跳转回", "复制消息", "选择全部"]:
+    menubar.add_command(label = item, command = disp_1)
+root['menu'] = menubar
+def pop(event):
+    menubar.post(event.x_root, event.y_root)
+root.bind("<Button-3>", pop)
+'''
+def hello(event):
+    print (event.x, event.y)
+
+root.bind("<Button-1>", hello)
+
 root.mainloop()
-            
+          
 
 
 
