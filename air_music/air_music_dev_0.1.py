@@ -7,6 +7,9 @@ from tkinter import *
 import pygame
 import sys
 import easygui
+import ctypes
+import struct
+
 
 pygame.init ()
 pygame.mixer.init ()
@@ -64,6 +67,26 @@ butt_4.pack()
 butt_5.pack()
 butt_6.pack()
 butt_7.pack()
+
+#调节音量
+def vol_1():
+	pygame.mixer.music.set_volume(0.3)
+butt_8 = Button(root, fg = 'white', bg = 'Brown', width = 50, heigh = 2, text = '音量（30%）', command = vol_1)
+butt_8.pack()
+
+def vol_2():
+	pygame.mixer.music.set_volume(0.7)
+butt_9 = Button(root, fg = 'white', bg = 'Brown', width = 50, heigh = 2, text = '音量（70%）', command = vol_2)
+butt_9.pack()
+
+def vol_3():
+	pygame.mixer.music.set_volume(1.0)
+butt_10 = Button(root, fg = 'white', bg = 'Brown', width = 50, heigh = 2, text = '音量（100%）', command = vol_3)
+butt_10.pack()
+
+butt_8.pack()
+butt_9.pack()
+butt_10.pack()
 
 
 menubar = Menu(root) # 需要指定该菜单是属于谁
