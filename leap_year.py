@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 # leap year
 # 判断一个年份是闰年
 # 能同时被4和100整除
