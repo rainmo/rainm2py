@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# 随机生成一个秘密数字，进行猜数小游戏
 import random
 
 secret = random.randint(1, 100)
