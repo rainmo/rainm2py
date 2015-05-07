@@ -1,4 +1,6 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
+
 #筛法求素数
 MAX = 100000
 n = 10001
