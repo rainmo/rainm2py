@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 sum_1 = 0
 sum_2 = 0
 for i in range(1, 1000):
