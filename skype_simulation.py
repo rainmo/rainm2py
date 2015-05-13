@@ -15,23 +15,6 @@ root.title('Skype -arron@intertouch')
 
 lab = Label(root, fg = 'white', bg = 'DarkTurquoise', width = 136, heigh = 40, text = 'Welcome to Skype!')
 lab.pack()
-'''
-butt_1 = Button(root, text = '确定', command = disp_1)
-butt_1.configure(width = 4, height = 1)
-butt_1.pack()
-'''
-
-'''
-butt_2 = Button(root, text = '取消')
-butt_2.bind('<Enter>', disp_2)
-butt_2.configure(width = 4, height = 1, state = 'disabled')
-butt_2.pack()
-'''
-
-'''
-ent = Entry(root, text = "请输入你的名字", show = '*')
-ent.pack()
-'''
 
 menubar = Menu(root) # 需要指定该菜单是属于谁
 menu_1 = Menu(menubar, tearoff = 0)
