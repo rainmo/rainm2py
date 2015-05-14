@@ -29,4 +29,4 @@ elif age > 15 and age < 20:
 elif age == 20:
     print ('桃李年华')
 elif age >= 21:
-    print ('$$$')
+    print ('弱冠')
