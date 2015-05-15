@@ -2,12 +2,23 @@
 # -*- coding: utf-8 -*-
 
 # 输入5个名字，选择进行修改替换
+
+import sys
+
 print ('Enter 5 names:')
+
 a = input()
 b = input()
 c = input()
 d = input()
 e = input()
+'''
+a = sys.stdin.readline()
+b = sys.stdin.readline()
+c = sys.stdin.readline()
+d = sys.stdin.readline()
+e = sys.stdin.readline()
+'''
 names = [a, b, c, d, e]
 print ('The names are:', a, b, c, d, e)
 rep = int(input('Replace one name. Which one? (1-5):'))
