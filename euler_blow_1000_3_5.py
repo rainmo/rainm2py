@@ -25,3 +25,4 @@ print (sum)
           
 解决方案：我们可以用set（集合）操作
           list3 = list(set(list1) – set(list2))
+'''
