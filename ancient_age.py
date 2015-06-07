@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # 古代对不同年纪的称谓
+
 age = int(input('请输入您的年龄：'))
 gender = input('请输入您的性别(女 / 男):')
 if age <= 1:
