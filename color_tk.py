@@ -142,7 +142,9 @@ colors = '''#FFB6C1 LightPink 浅粉红
 #A9A9A9 DarkGray 深灰色
 #808080 Gray 灰色
 #696969 DimGray 暗淡灰
-#000000 Black 纯黑'''
+#000000 Black 纯黑
+'''
+
 root = Tk()
 i = 0
 colcut = 5
