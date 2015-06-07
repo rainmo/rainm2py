@@ -1,7 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 from tkinter import *
+
 colors = '''#FFB6C1 LightPink 浅粉红
 #FFC0CB Pink 粉红
 #DC143C Crimson 深红/猩红
@@ -149,7 +150,7 @@ for color in colors.split('\n'):
     sp = color.split(' ')
     try:
         Label(text=color, bg=sp[1]).grid(row=int(i/colcut),column=i%colcut, sticky=W+E+N+S)
-    except :
+    except:
         print('err',color)
         Label(text='ERR'+color).grid(row=int(i/colcut),column=i%colcut, sticky=W+E+N+S)
     i += 1
