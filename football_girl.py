@@ -6,8 +6,10 @@
 gender = input('please enter your gender(male/female):')
 if gender == 'male':
     print ('pass')
-    break
+	
 elif gender == 'female':
-    age = int(input('please enter your age:'))
+    age = int(input('please enter your age:'))   
     if 10 <= age <= 12:
-        print ('well down')
+        print ('Congratulations！')
+    elif age < 10 or age > 12:
+    	print ('Sorry, mismatch condition.')
