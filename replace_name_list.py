@@ -3,8 +3,6 @@
 
 # 输入5个名字，选择进行修改替换
 
-import sys
-
 name_list = []
 n = 5
 print ('Enter 5 name_list:')
