@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 # 找出唯一满足a + b + c = 1000的毕达哥拉斯三元组
