@@ -1,7 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import turtle
 import time
 import os
-#
+
 def  draw_square(org_x, org_y, x, y):
     turtle.setpos(org_x, org_y)  # to left and bottom connor
     turtle.color('red', 'red')
@@ -11,7 +14,6 @@ def  draw_square(org_x, org_y, x, y):
     turtle.fd(y)
     turtle.lt(90)
     turtle.fd(x)
-    #print(turtle.pos())
     turtle.lt(90)
     turtle.fd(y)
     turtle.end_fill()
