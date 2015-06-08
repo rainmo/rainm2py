@@ -4,10 +4,10 @@
 # 古代对不同年纪的称谓
 
 age = int(input('请输入您的年龄：'))
-gender = input('请输入您的性别(女 / 男):')
+gender = input('请输入您的性别(girl/boy):')
 if age <= 1:
     print ('襁褓')
-elif age >= 2 and age <3:
+elif 2 <= age <3:
     print ('孩提')
 elif age == 7 and gender == girl:
     print ('髫年')
