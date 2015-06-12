@@ -8,8 +8,8 @@
 
 def leap_year(year):
     if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        print ('leap year')
+        print('leap year')
     else:
-        print ('common year')
+        print('common year')
 
 leap_year(float(input('please input years:')))
