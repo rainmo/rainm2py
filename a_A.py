@@ -16,5 +16,5 @@ def a_2_A():
 		elif continue_type == 'N' or 'n':
 			break
 		
-print (a_2_A())
+print(a_2_A())
     
