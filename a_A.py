@@ -9,11 +9,11 @@ def a_2_A():
 	while True:
 		name = input('please enter your name:')
 		new_name = name.capitalize()
-		return new_name
-		continue_type = input('Do you need continue type?(Y/N)')
-		if continue_type == 'Y' or 'y':
+		print(new_name)
+		continue_type = input('Do you need continue type?(Y/N):')
+		if continue_type =='Y' or continue_type =='y':
 			continue
-		elif continue_type == 'N' or 'n':
+		elif continue_type =='N' or continue_type =='n':
 			break
 		
 print(a_2_A())
