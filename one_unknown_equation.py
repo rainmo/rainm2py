@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# 一元二次方程
 import math
 
 def quadratic(a, b, c):
