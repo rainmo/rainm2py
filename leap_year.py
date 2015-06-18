@@ -13,9 +13,9 @@ def leap_year(year):
         print('common year')
 
 while True:
-	leap_year(float(input('please input years:')))
-	ask_people = input('Do you need next type?(y/n):')
-	if ask_people == 'y':
-		continue
-	elif ask_people == 'n':
-		break
+    leap_year(float(input('please input years:')))
+    ask_people = input('Do you need next type?(y/n):')
+    if ask_people == 'Y' or ask_people == 'y':
+        continue
+    elif ask_people == 'N' or ask_people == 'n':
+        break
