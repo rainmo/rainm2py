@@ -3,6 +3,7 @@
 
 # 古代对不同年纪的称谓
 
+
 def ancient_age(age):
     if age <= 1:
         print ('襁褓')
@@ -33,4 +34,10 @@ def ancient_age(age):
     elif age >= 21:
         print ('弱冠')
 
-ancient_age(age = int(input('请输入您的年龄：')))
+while True:
+    ancient_age(age = int(input('请输入您的年龄：')))
+    ask_people = input('Do you need next type?(y/n):')
+    if ask_people == 'Y' or ask_people == 'y':
+        continue
+    elif ask_people == 'N' or ask_people == 'n':
+        break
