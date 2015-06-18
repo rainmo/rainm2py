@@ -3,7 +3,6 @@
 
 # 古代对不同年纪的称谓
 
-
 def ancient_age(age):
     if age <= 1:
         print ('''襁褓
