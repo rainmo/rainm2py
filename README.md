@@ -4,7 +4,7 @@
 -------------------------------------
 + python语法
   + 函数（function）
-+ django框架
++ 框架
 + linux
 + 项目
   + Air-Music
