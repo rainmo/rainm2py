@@ -6,9 +6,9 @@
   + 函数（function）
     + 函数参数
       + 位置参数
-      + 默认参数
+      + 默认参数(Default Argument Values)
       + 可变参数
-      + 关键字参数（Keyword Arguments）
+      + 关键字参数(Keyword Arguments)
       + 命名关键字参数
 + 爬虫
   + 基本需求
