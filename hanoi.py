@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # 汉诺塔思想笔记
 # 认识汉诺塔的目标，把A柱子上的n个盘子移动到C柱子上
 # 递归的思想就是把这个目标分解成三个子目标
@@ -10,9 +12,9 @@ def move(n, a, b, c):
     if n == 1:
         print(a, '-->', c)
     else:
-        move(n - 1, a, c, b)
-        move(1, a, b, c)
-        move(n - 1, b, a, c)
+        move(n - 1, a, c, b)    # 子目标1
+        move(1, a, b, c)        # 子目标2
+        move(n - 1, b, a, c)    # 子目标3
 
 n = int(input('enter the number:'))
 move(n, 'A', 'B', 'C')
