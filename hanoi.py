@@ -13,9 +13,15 @@ def move(n, a, b, c):
     if n == 1:
         print(a, '-->', c)
     else:
-        move(n - 1, a, c, b)    # 子目标1
-        move(1, a, b, c)        # 子目标2
-        move(n - 1, b, a, c)    # 子目标3
+        move(n - 1, a, c, b)
+        move(1, a, b, c)
+        move(n - 1, b, a, c)
 
-n = int(input('enter the number:'))
-move(n, 'A', 'B', 'C')
+while True:
+    n = int(input('enter the number:'))
+    move(n, 'A', 'B', 'C')
+    ask_people = input('Do you need next type?(y/n):')
+    if ask_people == 'Y' or ask_people == 'y':
+        continue
+    elif ask_people == 'N' or ask_people == 'n':
+        break
