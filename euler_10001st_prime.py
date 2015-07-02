@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #筛法求素数
+
 MAX = 100000
 n = 10001
 while n >= 0:         # 利用循环查找第10001个素数
@@ -18,4 +19,4 @@ while n >= 0:         # 利用循环查找第10001个素数
         if(aList[i]==0):
             print(i, end=' ')
     n -= 1
-print (i)
+print(i)
